@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="votercss1.css">
+</head>
+<body>
+   
+    <center>
+    <div class="container">
+        
+        <h1>Vote for Your Party</h1>
+        <div id="party-list">
+            <button class="party" data-party="Party A">Party A</button>
+            <button class="party" data-party="Party B">Party B</button>
+            <button class="party" data-party="Party C">Party C</button>
+            <button class="party" data-party="Party D">Party D</button>
+        </div>
+        <div id="selection">results display here...</div>
+        <button type="button" id="show-results" class="hidden">Show Results</button>
+        <div id="results" class="hidden">
+            <h2>Overall Results</h2>
+            <ul id="results-list"></ul>
+        </div>
+    </div>
+</center>
+    <script src="voter1.js"></script>
+</body>
+</html>

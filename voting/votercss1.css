@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url(voter_pic3\ -\ Copy.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.party {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.party:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#results {
+    margin-top: 20px;
+}
